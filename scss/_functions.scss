@@ -1,0 +1,11 @@
+/// @access public
+/// @author @Agustín Jiménez Polonio
+@use "sass:list";
+
+/// @group colores
+/// @parameter {int} $int -Índice del color de la lista de colores
+/// @return {$color} -Color de la lista según el índice dado
+@function colorSectionTitle($int) {
+    $color: list.nth($colors, $int);
+    @return $color;
+}

@@ -1,0 +1,34 @@
+/// @access public
+/// @author @Agustín Jiménez Polonio
+
+/// Colors light mode
+/// @group colores
+$color__background--light: #dddddd;
+/// Colors light mode
+/// @group colores
+$color__text--dark: #000;
+
+/// Colors dark mode
+/// @group colores
+$color__background--dark: #222222;
+/// Colors dark mode
+/// @group colores
+$color__text--light: #FFFFFA;
+
+/// Color título de la sección rojo
+/// @group colores
+$rojo: red;
+/// Color título de la sección verde
+/// @group colores
+$verde: green;
+/// Color título de la sección naranja
+/// @group colores
+$naranja: orange;
+/// Color título de la sección azul
+/// @group colores
+$azul: blue;
+
+/// Colors List
+/// @group colores
+$colors: $rojo, $verde, $naranja, $azul;
+
